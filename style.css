@@ -10,7 +10,7 @@ body {
 .card {
     background-color: #222831;
     width: 30rem;
-    height: 50rem;
+    height: 57rem;
     margin: auto;
     border-radius: 10px;
     display: flex;
@@ -157,6 +157,13 @@ body {
     grid-gap: 10px;
     font-size: 1em;
     font-family: 'Krona One', sans-serif;
+}
+
+.copyrigth {
+    text-align: center;
+	padding: 10px 0;
+	font-style: italic;
+    color: #afafaf
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500&display=swap");
