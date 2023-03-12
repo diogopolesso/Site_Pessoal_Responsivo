@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #585c61;
+    background-color: #3a3a3a;
 }
 
 .card {
@@ -35,42 +35,19 @@ body {
 }
 
 .draw-border {
-    box-shadow: inset 0 0 0 4px #58cdd1;
-    color: #58cdd1;
+    border-radius: 10px;
+    color: #ffffff;
     transition: color 0.25s 0.08333333s;
     position: relative;
 }
 
-.draw-border::before,
-.draw-border::after {
-    border: 0 solid transparent;
-    box-sizing: border-box;
-    content: "";
-    pointer-events: none;
-    position: absolute;
-    width: 0;
-    height: 0;
-    bottom: 0;
-    right: 0;
-}
-
-.draw-border::before {
-    border-bottom-width: 4px;
-    border-left-width: 4px;
-}
-
-.draw-border::after {
-    border-top-width: 4px;
-    border-right-width: 4px;
-}
-
 .draw-border:hover {
-    color: whitesmoke;
+    color: #afafaf;
 }
 
 .draw-border:hover::before,
 .draw-border:hover::after {
-    border-color: blue;
+    border-color: #3a3a3a;
     transition: border-color 0s, width 0.25s, height 0.25s;
     width: 100%;
     height: 100%;
@@ -85,14 +62,14 @@ body {
 }
 
 .btn {
-    background: none;
+    background: #3a3a3a;
     border: none;
     line-height: 1.5;
-    font: 700 1.2rem "Roboto Slab", sans-serif;
+    font: 400 1.2rem "Roboto Slab", sans-serif;
     padding: 0.75rem 2rem;
     letter-spacing: 0.05rem;
     margin: 1em;
-    width: 13rem;
+    width: 26rem;
 }
 
 .btn:focus {
@@ -109,14 +86,14 @@ body {
     display: inline-block;
     margin: 0.15em;
     position: relative;
-    font-size: 1em;
+    font-size: 1.4em;
 }
 
 .social-icons i {
-    color: #FFF;
+    color: #ffffff;
     position: absolute;
-    top: 0.95em;
-    left: 0.96em;
+    top: 0.50em;
+    left: 0.55em;
     transition: all 265ms ease-out;
 }
 
@@ -142,7 +119,7 @@ body {
 
 .social-icons a:hover i {
     transform: scale(2.2);
-    color: #ff003c;
+    color: #55d7dc;
     background: linear-gradient(45deg, blue, #c648c8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -165,6 +142,7 @@ body {
 	font-style: italic;
     color: #afafaf
 }
+
 
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500&display=swap");
 
